@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 50px 0;
+}
+
+.Movies {
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin: 0 20px;
+}
+
+.Scroll {
+  flex-shrink: 0;
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+header img {
+  height: 80px;
+}
